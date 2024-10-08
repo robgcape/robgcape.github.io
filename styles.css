@@ -1,8 +1,20 @@
 body {
-    background-color:#cd853f ;
+    background-color:wheat ;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     text-align: center;
     color: #008b8b;
+}
+
+.projects { 
+    display:flex; 
+    flex-wrap:wrap; 
+} 
+.project {
+width: 30%;
+margin: 10px;
+padding: 20px 10px;
+background: rgb(89, 2, 2); /* pick a color */
+border-radius: 25%;
 }
